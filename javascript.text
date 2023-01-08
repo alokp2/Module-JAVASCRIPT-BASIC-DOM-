@@ -1,0 +1,63 @@
+What is JavaScript? 
+Javascript is scripting language for webpages which show how a webpage behaves. 
+
+What is the use of isNaN function? 
+isNan function checks whether a value is nan(not a number) when converted to a number.
+
+What is negative Infinity? 
+Negative infinity is javacript is a constant value that represents the lowest value available.This means that there is no lower value than this value. 
+
+Which company developed JavaScript? 
+It was developed by Brendan Eich in 1995 for Netscape communication coporation.
+
+What are undeclared and undefined variables? 
+
+undeclared happens when we try to access any variable that is not initialized or declared using const,var, or let. Undefined is when the variable is initialized but no value is not assigned or declared to variable.
+
+Write the code for adding new elements dynamically? 
+
+document.createElement("tagname");
+tagnames can be any html tags.
+
+What is the difference between ViewState and SessionState? 
+
+The difference between these two is ViewState is managed at the client's end, making state management easy for end user while SessionState manages state at the server's end, making it easy to manage content from this end too. 
+
+What is === operator? 
+it checks both variable and its datatype. 
+
+How to read and write a file using JavaScript? 
+
+To write using writefile() and to read using readfile().
+
+What are all the looping structures in JavaScript?
+
+There are different kind of loops in javascript. For example, there are for loops which loops through a block of code for a number of times.While loops which loops through the block of code until the provided condition is true. Do/while loops which loops at least once because it first execute the block of code and then check the while condition.Even if the condition is false it will run at least once.
+
+How can you convert the string of any base to an integer in JavaScript?
+
+By using parseint function.
+
+What is the function of the delete operator? 
+
+The delete operator returns true if it removes a property. It only works for objects property not on variable or function.For instance, if we delete an object property that does not exist it will return a true but it will not affect the object. Similarly, for a variable or function it will return false.
+
+What are all the types of Pop up boxes available in JavaScript? 
+
+Alert, confirm, and prompt.
+
+What is the use of Void (0)? 
+
+void(0) is used to return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we use some expression. 
+
+How can a page be forced to load another page in JavaScript? 
+ 
+We can use the window location property to load another page.
+
+What are the disadvantages of using innerHTML in JavaScript? 
+
+There are many disadvantages of using innerHTML:First,The use of innerHTML is very slow process since its content builts slowly.Second,content gets replaced everywhere.If we add,remove, or change on a webpage using innerHTML,all its content is replaced.Also, the Dom nodes inside that element are reparsed and recreated.Next, Appending to innerHTML is not supported. using append += the whole html tag gets re-parsed.Further, it can also can break the document because there is no proper validation provided by innerHTML, therefore, we can use any valid HTML code can be used.This may break the document,which will lead to unexpected problems. 
+
+
+
+
