@@ -12,7 +12,7 @@ It was developed by Brendan Eich in 1995 for Netscape communication coporation.
 
 What are undeclared and undefined variables? 
 
-undeclared happens when we try to access any variable that is not initialized or declared using const,var, or let. Undefined is when the variable is initialized but no value is not assigned or declared to variable.
+Undeclared happens when we try to access any variable that is not initialized or declared using const,var, or let. Undefined is when the variable is initialized but no value is not assigned or declared to variable.
 
 Write the code for adding new elements dynamically? 
 
